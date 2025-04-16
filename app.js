@@ -5,6 +5,11 @@ const port = 3000;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
+    
+    // res.send(blog)
+})
+
+app.get('/bacheca', (req, res) => {
     const blog = [
         {
             title: 'Ciambellone',
@@ -36,8 +41,9 @@ app.get('/', (req, res) => {
             image: '<img src = "torta_paesana.jpeg">',
             tag: ['#torta', '#zucchero', '#dolce']
         }
-    ] 
-    res.send(blog)
+    ];
+    
+    res.json(blog)
 })
 
 app.listen(port, () => {
