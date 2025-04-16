@@ -3,7 +3,15 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello World')  
+    const blog = [
+        {
+            title: 'Ciambellone',
+            content: 'Dolce a forma di ciabella',
+            image: 'public/ciambellone.jpeg',
+            tag: ['#Torta', '#ciambellone', '#zucchero']
+        }
+    ] 
+    res.send(blog)
 })
 
 app.listen(port, () => {
