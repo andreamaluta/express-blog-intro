@@ -14,31 +14,31 @@ app.get('/bacheca', (req, res) => {
         {
             title: 'Ciambellone',
             content: 'Dolce a forma di ciabella',
-            image: '<img src = "ciambellone.jpeg">',
+            image:  'public/ciambellone.jpeg',
             tag: ['#Torta', '#ciambellone', '#zucchero']
         },
         {
             title: 'Cracker barbabietola',
             content: 'cracker alla barbabietola',
-            image: '<img src = "cracker_barbabietola.jpeg">',
+            image:  'public/cracker_barbabietola.jpeg',
             tag: ['#Barbabietola', '#cracker', '#croccanti']
         },
         {
             title: 'Pane fritto dolce',
             content: 'lorem ipsum',
-            image: '<img src = "pane_fritto_dolce.jpeg">',
+            image:  'public/pane_fritto_dolce',
             tag: ['#Pane', '#dolce', '#fritto']
         },
         {
             title: 'Pasta alla barbabietola',
             content: 'lorem ipsum',
-            image: '<img src = "pasta_barbabietola.jpeg">',
+            image:  'public/pasta_barbabietola.jpeg',
             tag: ['#primo', '#barbabietola', '#pasta']
         },
         {
             title: 'Torta paesana',
             content: 'Dolce tipico',
-            image: '<img src = "torta_paesana.jpeg">',
+            image:  'public/torta_paesana.jpeg',
             tag: ['#torta', '#zucchero', '#dolce']
         }
     ];
